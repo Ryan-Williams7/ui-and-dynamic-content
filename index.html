@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Shopping List</title>
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+	
+	<body>
+	   <header class="container-fluid">
+			<div class="jumbotron jumbotron-fluid" id="masthead">
+                <img src="img/groceries.jpeg">
+                
+                <h1 class="text-center" id="tag-line">Your Shopping List</h1>
+			</div>
+		</header>
+		
+		<div class="main-content text-center">
+            <h3>Type Shopping List Items Below</h3>
+
+            <div class="form-row">
+                <input class="form-group col-sm" type="text" id="user-input" placeholder="Enter grocery item...">
+            </div>
+            
+            <button class="btn btn-success btn-block" id="trigger-click">ADD ITEM</button> 
+                 
+            <ul id="display-data"></ul>
+            
+            <p class="error"></p>                  
+        </div>
+             		
+        <footer class="page-footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-4 text-center">   
+                        <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                    </div>
+                    
+                    <div  class="col-sm-4 text-center">
+                        <a href="https://github.com/"><i class="fab fa-github"></i></a>
+                    </div>
+                     
+                     <div  class="col-sm-4 text-center"> 
+                        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                     </div>
+                 </div>
+            </div>
+        </footer>
+        
+        <script src="js/index.js"></script>
+	</body>
+</html>
