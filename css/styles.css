@@ -63,17 +63,17 @@ i {
 }
 
 a:link {
-  color: #28a745;
+    color: #28a745;
 }
 
 a:visited {
-  color: white;
+    color: white;
 }
 
 a:hover {
-  color: white;
+    color: white;
 }
 
 a:active {
-  color: #28a745;
+    color: #28a745;
 }
